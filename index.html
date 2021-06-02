@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="content my-5">
+            <div class="row my-2 pr-3 pr-md-0">
+                <div class="col-12 col-md-6 login-side">
+                    <span class="font-weight-bold pay-title">Pay With Saman Bank</span>
+                    <div class="row">
+                        <div class="col-9 col-md-8 col-xl-9 py-3 login pr-1 pr-sm-3 pr-md-2">
+                            <button class=" btn btn-sm d-flex w-100 justify-content-center loginbtn font-weight-bold text-white">Login To Saman</button>
+                            <div class="saman-icon">
+                                <img src="images/saman.svg">
+                            </div>
+                        </div>
+                        <div class="col-3 col-md-4 col-xl-3 pl-0 py-3 right-icons">
+                            <div class="right-icon ">
+                                <a href="#"><img src="images/bank-cards.svg"></a>
+                            </div>
+                            <div class="right-icon mx-1">
+                                <a href="#"><img src="images/bank-card-missing.svg"></a>
+                                <img src="images/bank-card-missing.svg">
+                            </div>
+                            <div class="right-icon-dots ">
+                                <a href="#"><img src="images/verticaldots.svg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <span class=" orline  d-flex align-items-center justify-content-center">OR</span>
+                    <form name="frm">
+                        <div class="row pt-2">
+                            <div class="input-group">
+                                <div class="form-group input-group-sm col-9 pr-0 cardnum">
+                                    <label id="clabel" class="col-form-label py-0">Card Number</label>
+                                    <input type="text" class="form-control inputbg" pattern="/\b^(\d{4}|(\d-?){4}|(\d\s?){4}){4}\b" id="cardnumber" minlength="16" required>
+                                    <div class="icons bkardicon">
+                                        <img src="images/bcard.svg">
+                                    </div>
+                                </div>
+                                <div class="form-group input-group-sm  col-3 pl-0 cvv2" >
+                                    <label class="col-form-label py-0">CVV2</label>
+                                    <input  type="text" class=" form-control input-group-append px-md-1 px-lg-2 inputbg" id="cvv2" milength="2"  required>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group input-group-sm ">
+                                <div class="form-group  input-group-sm  col-9 pr-0 cardnum">
+                                    <label class="col-form-label pb-0">Password</label>
+                                    <input type="password" class="form-control inputbg" id="password" maxlength="25">
+                                    <div class="icons passicon cursorpoint">
+                                        <img src="images/sendicon.svg">
+                                    </div>
+                                    <span class="text-muted dynamicpass">Press <img src="images/sendicon.svg"> To Get Dynamic Password</span>
+                                </div>
+                                <div class="form-group col-3 pl-0 cvv2" >
+                                    <label class="col-form-label pb-0">Date</label>
+                                    <div class=" input-group input-group-sm input-group-append">
+                                        <input type="text" class=" form-control  px-md-1 px-lg-2 m-input inputbg" placeholder="MM" maxlength="2" min="01" max="12" id="mounth" required>
+                                        <input type="text" class="form-control  input-group-append y-input inputbg"  placeholder="YY" maxlength="2"  id="year" required>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="form-group emailbox col-12 px-0">
+                            <label class="col-form-label pb-0">Email</label>
+                            <input type="email" class="form-control form-control-sm inputbg" id="email" required>
+                            <div class="d-flex mt-1 pb-2">
+                                <div class="radio cursorpoint" id="radio">
+                                    <div class="circleradio" id="circleradio"></div>
+                                </div>
+
+                                <span class="dynamicpass text-muted">Save My Card Details For Future Use</span>
+                            </div>
+                        </div>
+                        <div class="row paybtns">
+                            <div class="col-4 pr-1">
+                                <input type="button" class="cursorpoint form-control form-control-sm font-weight-bold" value="Cancel">
+                            </div>
+                            <div class="col-8 pl-1">
+                                <input type="submit" class="cursorpoint form-control form-control-sm " value="Pay Now">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+                <div class="col-12 col-md-6">
+                   <div class="shaparak d-flex justify-content-center py-2 d-none d-md-flex">
+                    <span class="d-none d-md-flex">SHAPARAK</span>
+                   </div>
+                    
+                    <div class="banksamancard  mx-auto d-none d-md-block">
+                        <img class="" src="images/banksamancard.svg">
+                    </div>
+                    <div class="rightfooter mx-auto mt-md-4 mt-lg-0 pt-1 pt-md-5 d-flex justify-content-around">
+                        <a href="#" class="text-muted">Help</a>
+                        <a href="#" class="text-muted">tips</a>
+                        <a href="#" class="text-muted">security</a>
+                    </div>
+                    <div class="text-muted d-block mt-2 mt-sm-3 mx-auto text-center footertxt">
+                        <span>Powered By Shaparak Banking System</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.cookie-2.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+	<title>icons8-email-send-24</title>
+	<defs>
+		<image  width="24" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAAXNSR0IB2cksfwAAAHVQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeVl9WAAAACd0Uk5TACdeH2P+//ufI+v9qiZkgKHC5FlgfZy82fb6X1tyoOjnXephJVoeM6hVxwAAAHFJREFUeJyd0dcOgCAMBVBcdSvuvcf/f6KKLya0MXofe5ICF8Z+RVE1dK4bYFo2Ag6cwQjuuJ6Pg0wABAEQFIQ8il2EkitplhdldVPdPECk7XohgwxcwEitml4OJ6/7/kCiErnEmap9oT6KrduOjT/mAFouCvR9+14TAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" style="fill-opacity: 0.62" href="#img1" x="0" y="0" />
+</svg>
