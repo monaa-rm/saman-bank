@@ -1,3 +1,6 @@
+*{
+  font-family: Helvetica, sans-serif;
+}
 body{
     background-color: #d9d2cc;
 }
@@ -10,13 +13,17 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance:textfield;
 }
+.inputbg{
+    border: 1px solid rgb(232, 232, 232) !important;
+    background-color: #f5f6f8 !important;
+}
 .content{
-    margin-top: 60px;
+  margin-top: 70px;
     padding: 1rem;
     background-color: #e9e8e6;
 
     border-radius: 25px;
-    box-shadow: 3px 7px 7px 7px #cfc8c2;
+    box-shadow: 3px 7px 7px 7px #cecccb;
 }
 .pay-title{
     color: #302f2d;
@@ -45,9 +52,7 @@ input[type=number] {
     left: 17px;
     top: 18px;
 }
-inputbg{
-    background-color: rgb(224, 225, 226) !important;
-}
+
 .saman-icon img, .icons img{
     width: 100%;
     height: auto;
@@ -84,16 +89,16 @@ inputbg{
 
 }
 .orline{
-    color: #85858544;
-   
-    padding: 10px;
+    color: #a09f9f44;
+    padding: 0px;
+    font-size: 14px;
 }
  .orline:before , .orline:after {
     content: '';
     margin: 5px;
     width: 100%;
-    height: 1px;
-    background: #85858544;
+    height: 0.5px;
+    background: #a09f9f44;
   
   }
 .cardnum .form-control{
@@ -109,22 +114,24 @@ inputbg{
     font-size: 12px;
     font-weight: 700;
 }
-.icons{
-    width: 15px;
-    height: 15px;
+
+.bkardicon{
+    width: 14px;
+    height: 14px;
     overflow: hidden;
-    border-radius: 6px;
-    background-color: #fefdf8;
     align-items: center;
     position: absolute;
-}
-.bkardicon{
-    right:7px;
+    right:9px;
     top: 28px;
 }
 .passicon{
-    right:7px;
-    top: 35px;
+    width: 11px;
+    height: 11px;
+    overflow: hidden;
+    align-items: center;
+    position: absolute;
+    right:9px;
+    top: 28px;
 }
 
 .m-input{
@@ -196,7 +203,7 @@ inputbg{
     color: #847676;
     margin-top: -10px;
 }
-.banksamancard{
+/* .banksamancard{
     width: 200px;
     height: 120px;
     border-radius: 15px;
@@ -204,12 +211,133 @@ inputbg{
     display: flex;
     align-items: center;
     margin-top: 80px;
-    box-shadow: 3px 3px 3px 3px #847676;
     
 }
 .banksamancard img{
     width: 100%;
     height: auto;
+} */
+.pic{
+    padding: 10px;
+    overflow: hidden;
+}
+.picture-side{
+overflow: hidden;
+}
+
+.outer{position: relative;
+    max-width: 270px;
+    height: 170px;
+    margin:30px auto 10px auto;
+    border-radius: 25px;
+
+    }
+    .div{
+        width: 270px;
+        height: 170px;
+        background: linear-gradient(60deg,#9de6f0,#ebdfab);
+        border-radius: 25px;
+        position: absolute;
+
+    }
+    .div1{
+        width: 250px;
+        height: 170px;
+        background: linear-gradient(60deg,#9de6f0,#ebdfab);
+        border-radius: 25px;
+        margin: 200px auto;
+        opacity: 0.4;
+        position: absolute;
+        left:50%;
+        bottom: -112%;
+        transform: translate(-50%,0);
+    }
+    .div2{
+        width: 230px;
+        height: 170px;
+        background: linear-gradient(60deg,#9de6f0,#ebdfab);
+        border-radius: 25px;
+        margin: 200px auto;
+        opacity: 0.3;
+        position: absolute;
+        left:50%;
+        bottom: -105%;
+        transform: translate(-50%,0);
+    }
+.square{
+    width:200px;
+    height: 170px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    background-color: #e9e8e6;;
+    opacity: 0.4;
+    position: absolute;
+    left: -40%;
+    top: 0;
+    
+}
+.square1{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+     background-color: #e9e8e6;;
+    opacity: 0.3;
+    position: absolute;
+    left: -30%;
+    top: 0;
+}
+.square2{
+    width: 200px;
+    height: 170px;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    background-color: #e9e8e6;;
+    opacity: 0.2;
+    position: absolute;
+    left: -20%;
+    top: 0;
+}
+.topleft{
+    position: absolute;
+    left: 10%;
+    top: 8%;
+    width: 25px;
+    height: 20px;
+}
+.topleft img{
+    width: 100%;
+    height: auto;
+}
+.topright{
+    font-size: 14px;
+    color: #7d8172;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+.bottomt{
+    font-size: 14px;
+    color: #7d8172;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+.siteurl{
+    color: #7d8172;
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    text-decoration: none !important;
+    font-size: 12px;
+}
+.bottomright{
+    font-size: 14px;
+    color: #7d8172;
+    position: absolute;
+    font-weight: bold;
+    right: 10%;
+    top: 60%;
 }
 .rightfooter{
     max-width: 300px;
@@ -218,7 +346,7 @@ inputbg{
     text-decoration: none;  
 }
 .footertxt{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
 }
 @media(min-width:992px){

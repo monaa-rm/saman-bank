@@ -1,10 +1,8 @@
-<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 17" width="24" height="17">
-	<title>Background</title>
-	<defs>
-		<image  width="24" height="17" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAARBAMAAAA1VnEDAAAAAXNSR0IB2cksfwAAAB5QTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtyhvagAAAAp0Uk5TK8r8/yrJBwAIyFGFdmUAAAA/SURBVHicY2BUNoYCIxEGYWM4MGVQTi+HgjIjBuNyODBmMEYC+DgoelA5QHlz7DJEcRBuqzBCdrUlgyvCP1MA2alBr+P6MXIAAAAASUVORK5CYII="/>
-	</defs>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" width="20" height="16">
+	<title>Layer</title>
 	<style>
 		tspan { white-space:pre }
+		.shp0 { fill-opacity: 0.471;fill: #000000 } 
 	</style>
-	<use id="Background" href="#img1" x="0" y="0" />
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M20 2L20 14C20 15.11 19.11 16 18 16L2 16C0.89 16 0 15.11 0 14L0.01 2C0.01 0.89 0.89 0 2 0L18 0C19.11 0 20 0.89 20 2ZM18 8L2 8L2 14L18 14L18 8ZM18 2L2 2L2 4L18 4L18 2Z" />
 </svg>
